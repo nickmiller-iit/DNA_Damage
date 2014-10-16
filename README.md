@@ -1,4 +1,4 @@
 DNA_Damage
 ==========
 
-Scripts etc used in DNA damage analysis projects
+Scripts etc used in DNA damage analysis projects.
