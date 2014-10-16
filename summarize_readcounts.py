@@ -49,13 +49,7 @@ for line in inFile:
 	for element in line[4:]:
 		base = element.split(':')[0]
 		count = element.split(':')[1]
-		#
-		#print(base + " " + count)
-		#
 		for i in range(0,5):
-			#
-			#print (base + " " + outBases[i] + " " + str(base == outBases[i]) + " " + str(outCounts[i]) + " " + str(int(count)))
-			#
 			if base == outBases[i]:
 				outCounts[i] += int(count)
 	print('\t'.join((outLine + [str(x) for x in outCounts])))
